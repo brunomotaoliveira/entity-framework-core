@@ -9,7 +9,7 @@ namespace dbcodefirst
 
        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
        {
-           optionsBuilder.UseSqlServer("Data Source=MOTA;" + "Initial Catalog=EFCoreDB;Integrated Security=True");
+           optionsBuilder.UseSqlServer("Data Source=Mota;" + "Initial Catalog=EFCoreDB;Integrated Security=True");
        }
     }
 }
